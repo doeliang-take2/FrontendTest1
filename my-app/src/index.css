@@ -4,5 +4,15 @@ body {
 }
 
 .content{
-    text-align: center;
+    display:table;
+    margin:0 auto;
+}
+
+.index{
+    color:rgb(192,192,192);
+}
+
+.content h3{
+
+    display: inline-block;
 }

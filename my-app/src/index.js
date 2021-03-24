@@ -16,8 +16,8 @@ class Board extends React.Component {
         return (
             <div className="content">
                 <h1>Hello World!</h1>
-                <h1>{item}</h1>
-                <h1>{price}CNY</h1>
+                <h4 className="index">{item}</h4>
+                <h3 >{price}</h3><h3> CNY</h3>
             </div>
         );
     }
